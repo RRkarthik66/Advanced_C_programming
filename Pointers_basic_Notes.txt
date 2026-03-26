@@ -1,0 +1,15 @@
+//Pointer declaration and initialization
+
+int x = 10; //Variable
+int *p = &x; // Pointer p holds the address of x
+
+//Dereference = Access value at address
+
+*p = 20; //modify the value of using address(deference)
+printf("%d" , x); //prints 20.
+
+// Key operators
+&x   → address of x (gives you the pointer value)
+*p   → value at address p (dereferences the pointer)
+
+ 
